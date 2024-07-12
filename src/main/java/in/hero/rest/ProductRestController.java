@@ -14,7 +14,7 @@ import in.hero.entity.Product;
 import in.hero.repository.ProductRepository;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://sb-rest-h2-db-app-production.up.railway.app")
 public class ProductRestController {
 	
 	private ProductRepository repo;
